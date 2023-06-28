@@ -26,7 +26,7 @@ public class While {
 	
 	public static void prova() {
 		Scanner caratteri = new Scanner(System.in);
-		System.out.println("Separa la tua frase in lettere");
+		System.out.println("Separa la tua frase in lettere \n Scrivi :q per finire!");
 		String parola = caratteri.nextLine();
 		dividi(parola);
 		caratteri.close();
